@@ -43,16 +43,6 @@
         android:layout_alignStart="@+id/button9" />
 
     <Button
-        android:text="Dip/Dip Azimuth"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button9"
-        android:layout_alignStart="@+id/button9"
-        android:layout_marginTop="64dp"
-        android:id="@+id/button10"
-        android:layout_alignEnd="@+id/button9" />
-
-    <Button
         android:text=" Dip/Dip Quadrant"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -60,5 +50,14 @@
         android:id="@+id/button9"
         android:layout_below="@+id/button8"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Dip/Dip Azimuth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button9"
+        android:layout_marginBottom="20dp" />
 
 </RelativeLayout>

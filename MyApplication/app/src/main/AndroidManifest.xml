@@ -20,10 +20,13 @@
         <activity android:name=".strikedippage" />
         <activity android:name=".existingproject" />
         <activity android:name=".quadrant" />
-        <activity
-            android:name=".quadrantgraph"
-            android:label="@string/title_activity_quadrantgraph"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".quadrantgraph" />
+        <activity android:name=".azimuth" />
+        <activity android:name=".azimuthgraph" />
+        <activity android:name=".dipdipquadrant" />
+        <activity android:name=".dipdipquadrantgraph" />
+        <activity android:name=".dipdipazimuth" />
+        <activity android:name=".dipdipazimuthgraph"></activity>
     </application>
 
 </manifest>

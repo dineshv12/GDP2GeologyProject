@@ -16,12 +16,40 @@ public class strikedippage extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_strikedippage);
-        Button but1 = (Button) findViewById(R.id.button7);
-        but1.setOnClickListener(this);
+
+        final Button contact =(Button)findViewById(R.id.button7);
+        contact.setOnClickListener(this);
+
+        final Button msg =(Button)findViewById(R.id.button8);
+        msg.setOnClickListener(this);
+
+        final Button dip = (Button) findViewById(R.id.button9);
+        dip.setOnClickListener(this);
+
+        final Button azimuth = (Button) findViewById(R.id.button10);
+        azimuth.setOnClickListener(this);
     }
 
-   public void onClick(View view){
-       Intent toy = new Intent(strikedippage.this,quadrant.class);
-       startActivity(toy);
-   }
+    @Override
+    public void onClick(View v) {
+        Intent i;
+        switch(v.getId()){
+            case R.id.button7:
+                i  = new Intent(strikedippage.this, quadrant.class);
+                startActivity(i);
+                break;
+            case R.id.button8:
+                i = new Intent(strikedippage.this, azimuth.class);
+                startActivity(i);
+                break;
+            case R.id.button9:
+                i = new Intent(strikedippage.this,dipdipquadrant.class);
+                startActivity(i);
+                break;
+            case R.id.button10:
+                i = new Intent(strikedippage.this,dipdipazimuth.class);
+                startActivity(i);
+                break;
+        }
+    }
 }

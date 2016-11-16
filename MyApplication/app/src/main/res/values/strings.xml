@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="name">Name</string>
     <string name="title_activity_quadrantgraph">quadrantgraph</string>
+    <string name="title_activity_azimuthgraph">azimuthgraph</string>
+    <string name="title_activity_dipdipquadrant">dipdipquadrant</string>
+    <string name="title_activity_dipdipquadrantgraph">dipdipquadrantgraph</string>
 </resources>
