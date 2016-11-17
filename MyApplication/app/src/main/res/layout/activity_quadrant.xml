@@ -13,13 +13,13 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="@string/name"
+        android:inputType="none"
         android:ems="10"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="120dp"
-        android:id="@+id/editText4" />
+        android:id="@+id/editText4"
+        android:hint="N45E,18SE" />
 
     <TextView
         android:text="Enter values in Quadrant notation"
